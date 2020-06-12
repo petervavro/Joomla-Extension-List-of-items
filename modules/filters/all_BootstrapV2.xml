@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="filter">
+
+        <fieldset name="general" addfieldpath="/components/com_listofitems/models/fields">
+
+            <field name="categoryid"
+                type="customcategory"
+                extension="com_listofitems"
+                label="JCATEGORY"
+                class="form-control"
+                order="alphabetical"
+                showamount="true"
+                rootcategoryid="root"
+                onchange="this.form.submit();"/>
+
+            <field name="text"
+                type="text"
+                label="COM_LISTOFITEMS_FIELD_SEARCH_FULLTEXT_LABEL"
+                class="form-control"
+                placeholder="COM_LISTOFITEMS_FIELD_SEARCH_FULLTEXT_LABEL" />
+
+            <field name="letter"
+                type="filterbyfirstletter"
+                label="COM_LISTOFITEMS_FILTER_FIRST_LETTER_LABEL"
+                classwrapper="btn-group btn-group-sm control-group"
+                classletter="btn btn-secondary"
+                classletteractive="btn btn-primary active disabled"
+                classreset="btn btn-outline-secondary btn-sm" />
+
+        </fieldset>
+
+    </fields>
+
+</form>

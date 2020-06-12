@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="filter">
+
+        <fieldset name="general" addfieldpath="/components/com_listofitems/models/fields">
+
+            <field name="letter"
+                    type="filterbyfirstletter"
+                    label="COM_LISTOFITEMS_FILTER_FIRST_LETTER_LABEL"
+                    description="COM_LISTOFITEMS_FILTER_FIRST_LETTER_DESC"
+                    classwrapper="btn-group btn-group-sm d-flex"
+                    classletter="btn d-flex justify-content-center align-items-center btn-secondary"
+                    classletteractive="btn d-flex justify-content-center align-items-center btn-primary active disabled"
+                    classreset="btn d-flex justify-content-center align-items-center btn-outline-secondary btn-sm" />
+
+        </fieldset>
+
+    </fields>
+
+</form>
