@@ -63,10 +63,9 @@ To display items which contains the selected value in particular column. It repr
     <option value="">Please Select</option>
     <option value="A">Option A</option>
     <option value="B">Option B</option>
-    ...
 </field>
 ```
-The list option must be defined in `<option>` element e.g. `<option value="?">?</option>`
+The list option must be defined in `<option>` element e.g. `<option value="option_value">Option label</option>`
 
 ### Attributes
 | Name | Description |
